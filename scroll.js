@@ -84,10 +84,286 @@ function ImageStack (options) {
   
 }
 
-var stack = new ImageStack({
+var stack1 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack2 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack3 = new ImageStack({
   images: images,
   height: '500px',
   width: '500px'
 });
 
-document.querySelector('.test').appendChild(stack);
+var stack4 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack5 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack6 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack7 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+
+var stack8 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack9 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack10 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack11 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+
+var stack12 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack13 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack14 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack15 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+
+var stack16 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack17 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack18 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack19 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+
+var stack20 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack21 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack22 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack23 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+
+var stack24 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack25 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack26 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack27 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack28 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack29 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack30 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack31 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack32 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack33 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack34 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack35 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack36 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack37 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack38 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack39 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack40 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack41 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack42 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack43 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack44 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack45 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+var stack46 = new ImageStack({
+  images: images,
+  height: '500px',
+  width: '500px'
+});
+
+document.querySelector('.stack1').appendChild(stack1);
+document.querySelector('.stack2').appendChild(stack2);
+document.querySelector('.stack3').appendChild(stack3);
+document.querySelector('.stack4').appendChild(stack4);
+document.querySelector('.stack5').appendChild(stack5);
+document.querySelector('.stack6').appendChild(stack6);
+document.querySelector('.stack7').appendChild(stack7);
+document.querySelector('.stack8').appendChild(stack8);
+document.querySelector('.stack9').appendChild(stack9);
+document.querySelector('.stack10').appendChild(stack10);
+document.querySelector('.stack11').appendChild(stack11);
+document.querySelector('.stack12').appendChild(stack12);
+document.querySelector('.stack13').appendChild(stack13);
+document.querySelector('.stack14').appendChild(stack14);
+document.querySelector('.stack15').appendChild(stack15);
+document.querySelector('.stack16').appendChild(stack16);
+document.querySelector('.stack17').appendChild(stack17);
+document.querySelector('.stack18').appendChild(stack18);
+document.querySelector('.stack19').appendChild(stack19);
+document.querySelector('.stack20').appendChild(stack20);
+document.querySelector('.stack21').appendChild(stack21);
+document.querySelector('.stack22').appendChild(stack22);
+document.querySelector('.stack23').appendChild(stack23);
+document.querySelector('.stack24').appendChild(stack24);
+document.querySelector('.stack25').appendChild(stack25);
+document.querySelector('.stack26').appendChild(stack26);
+document.querySelector('.stack27').appendChild(stack27);
+document.querySelector('.stack28').appendChild(stack28);
+document.querySelector('.stack29').appendChild(stack29);
+document.querySelector('.stack30').appendChild(stack30);
+document.querySelector('.stack31').appendChild(stack31);
+document.querySelector('.stack32').appendChild(stack32);
+document.querySelector('.stack33').appendChild(stack33);
+document.querySelector('.stack34').appendChild(stack34);
+document.querySelector('.stack35').appendChild(stack35);
+document.querySelector('.stack36').appendChild(stack36);
+document.querySelector('.stack37').appendChild(stack37);
+document.querySelector('.stack38').appendChild(stack38);
+document.querySelector('.stack39').appendChild(stack39);
+document.querySelector('.stack40').appendChild(stack40);
+document.querySelector('.stack41').appendChild(stack41);
+document.querySelector('.stack42').appendChild(stack42);
+document.querySelector('.stack43').appendChild(stack43);
+document.querySelector('.stack44').appendChild(stack44);
+document.querySelector('.stack45').appendChild(stack45);
+document.querySelector('.stack46').appendChild(stack46);
