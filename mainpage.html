@@ -16,26 +16,29 @@
   </head>
   <body>
 
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #001471;">
-        <a class="navbar-brand" href="#">COVID-19 Radiology Primer</a>
+    <header style="background-color:#001471;">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="background-color:#001471;>
+        <a class="navbar-brand" href="#">Carousel</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse" >
+        <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
           </ul>
-           <a class="nav-link disabled" style="color:rgba(255,255,255,.5);">An educational resource for understanding SARS-CoV-2.</a>
-
-
-<!--           <form class="form-inline mt-2 mt-md-0">
-
-
+          <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-
-          </form> -->
-      </div>
+          </form>
+        </div>
       </nav>
     </header>
 
@@ -47,15 +50,12 @@
           <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol> -->
         <div class="carousel-inner">
-          <div class="carousel-item active" style="height:630px; background-color: #000623;">
-            <div class="container stack1" style="display:flex; align-items: center;">
-              <div class="text" style="width:350px; margin: auto; color:#fff; font-size: 125%;">
-                <h1>Image #1:</h1>
-                <p></p>
-                <p><b>Age:</b> 55 years</p>
-                <p><b>Gender:</b> Male</p>
-                <p><b>Case Notes:</b> Bilateral multi-lobar peripheral ground-glass and consolidative opacities are seen in both lungs, mostly mid to lower zones.</p>
-                <p><b>Diagnosis:</b> The RT-PCR COVID-19 assay was positive, so this patient was deemed to have COVID-19 pneumonia. </p>
+          <div class="carousel-item active">
+            <div class="container stack1">
+              <div class="carousel-caption text-left">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
               </div>
             </div>
           </div>

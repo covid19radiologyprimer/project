@@ -84,10 +84,13 @@ function ImageStack (options) {
   
 }
 
+var image_height = '630px';
+var image_width = '630px';
+
 var stack1 = new ImageStack({
   images: images,
-  height: '500px',
-  width: '500px'
+  height: image_height,
+  width: image_width
 });
 var stack2 = new ImageStack({
   images: images,
