@@ -14,18 +14,18 @@
     <link href="carousel.css" rel="stylesheet">
     <link href="my.css" rel="stylesheet">
   </head>
-  <body>
+  <body style="background-color: #000a36">
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #001471;">
-        <a class="navbar-brand" href="#">COVID-19 Radiology Primer</a>
+        <a class="navbar-brand" href="#" style="color:rgba(255,255,255,1)">COVID-19 Radiology Primer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse" >
           <ul class="navbar-nav mr-auto">
           </ul>
-           <a class="nav-link disabled" style="color:rgba(255,255,255,.5);">An educational resource for understanding SARS-CoV-2.</a>
+           <a class="nav-link disabled" style="color:rgba(255,255,255,0.5);">An educational resource for understanding SARS-CoV-2.</a>
 
 
 <!--           <form class="form-inline mt-2 mt-md-0">
@@ -47,7 +47,16 @@
           <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol> -->
         <div class="carousel-inner">
-          <div class="carousel-item active" style="height:630px; background-color: #000623;">
+           <div class="carousel-item active" style="height:630px; background-color: #000623;">
+            <div class="container" style="display:flex; align-items: center;">
+              <div class="text" style="width:600px; margin: auto; color:#fff; margin-top: 125px;">
+                <h1 style="font-size: 420%; text-align: center;">Welcome to the COVID-19 Radiology Primer.</h1>
+                <h1 style="font-size: 1000%;"></p>
+                <h2 style="font-size: 210%; text-align: center;">Click on the left and right arrows to read through the cases.</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="height:630px; background-color: #000623;">
             <div class="container stack1" style="display:flex; align-items: center;">
               <div class="text" style="width:350px; margin: auto; color:#fff; font-size: 125%;">
                 <h1>Image #1:</h1>
@@ -478,73 +487,36 @@
 
       <script src="scroll.js"></script>
 
-      <div class="container marketing">
-
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
+      <div class = "container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-10">
+            <h1  style="color: #fffffff1">What is the purpose of this primer?</h1>
+            <h2  style="color: #ffffff9e">The goal of this primer is to provide an engaging, easy-to-use interface for understanding the classic radiologic imagery associated with COVID-19. Currently, the online platform features 46 CT stacks and accompanying case information that we hope medical students and other medical trainees can use.</h2>
         </div>
+      </div>
+              <hr class="featurette-divider" style="background-color:#ffffffc8">
 
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
+              <div class="row justify-content-md-center">
+          <div class="col-md-10">
+            <h1 style="color: #fffffff1">Is this project complete?</h1>
+            <h2 style="color: #ffffff9e">No, it isn't! Now that this website is set up, we would like to incorporate X-ray imagery, in addition to more CT stacks. If you are a software engineer, web designer, diagnostic radiologist, or other medical imaging expert, please contact us.</h2>
         </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
       </div>
 
-      <footer class="container">
+              <hr class="featurette-divider" style="background-color:#ffffffc8">
+
+                  <div class="row justify-content-md-center">
+          <div class="col-md-10">
+            <h1 style="color: #fffffff1">Where can I gain more supplemental information about this project?</h1>
+            <h2 style="color: #ffffff9e">To checkout our full project on Github, please click on the link <a style="color: #ffffff9e" href="https://github.com/covid19radiologyprimer/project">here</a>. For access to copyright information, please click on the link <a style="color: #ffffff9e" href="https://github.com/covid19radiologyprimer/project/blob/master/README.md">here</a>.</h2>
+        </div>
+      </div>
+    </div>
+
+<!--       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
         <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+      </footer> -->
     </main>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
