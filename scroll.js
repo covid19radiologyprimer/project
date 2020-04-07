@@ -94,8 +94,8 @@ var stack1 = new ImageStack({
 });
 var stack2 = new ImageStack({
   images: images,
-  height: '500px',
-  width: '500px'
+  height: image_height,
+  width: image_width
 });
 var stack3 = new ImageStack({
   images: images,
