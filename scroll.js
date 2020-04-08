@@ -201,7 +201,7 @@ for (i = 10000; i <= 10034; i++) {
 
 var images41 = [];
 for (i = 10000; i <= 10070; i++) {
-  images41.push("".concat("axial non-contrast 74880 2/a",String(i), ".jpeg"))
+  images41.push("".concat("coronal lung window 74880/a",String(i), ".jpeg"))
 }
 
 var images42 = [];
