@@ -1,7 +1,7 @@
 # Copyright Information
 
 ## Platform
-The online platform for this project was designed using Bootstrap 4 template. The Javascript scrolling mechanism for radiologic imagery was provided by [Felix De Montis](https://codepen.io/dervondenbergen/pen/vOLpmQ).
+The online platform for this project was designed using Bootstrap 4 template. The Javascript scrolling mechanism for radiologic imagery was provided by [Felix De Montis](https://codepen.io/dervondenbergen/pen/vOLpmQ). The Open Graph image was obtained from the [NIH Image Gallery](https://www.flickr.com/photos/nihgov/28940583070).
 
 ## Dataset
 Radiopaedia was one of the sources we used to design our platform, namely in acquiring CT imagery and associated case information (as part of Radiopaedia's Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported licence). Individual references can be found below:
