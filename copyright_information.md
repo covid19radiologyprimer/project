@@ -63,10 +63,10 @@ Case courtesy of Dr Bahman Rasuli, <a href="https://radiopaedia.org/">Radiopaedi
 ### Case #7: View B.
 Case courtesy of Dr Bahman Rasuli, <a href="https://radiopaedia.org/">Radiopaedia.org</a>. From the case <a href="https://radiopaedia.org/cases/74879">rID: 74879</a>.
 
-### ase #7: View C.
+### Case #7: View C.
 Case courtesy of Dr Bahman Rasuli, <a href="https://radiopaedia.org/">Radiopaedia.org</a>. From the case <a href="https://radiopaedia.org/cases/74879">rID: 74879</a>.
 
-### ase #7: View D.
+### Case #7: View D.
 Case courtesy of Dr Bahman Rasuli, <a href="https://radiopaedia.org/">Radiopaedia.org</a>. From the case <a href="https://radiopaedia.org/cases/74879">rID: 74879</a>.
 
 ### Case #8: View A.
