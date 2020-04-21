@@ -1,4 +1,4 @@
-# Team Members
+# Our Team
 
 The COVID-19 Radiology Primer is an open-source project founded and directed by:
 
