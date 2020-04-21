@@ -8,7 +8,7 @@ No, it isn't! Now that this website is set up, we would like to incorporate X-ra
 
 
 ## Where can I gain more supplemental information about this project?
-To checkout our full open-source project on Github, please click on the link [here](https://github.com/covid19radiologyprimer/project). For access to copyright information, please click on the link [here](https://github.com/covid19radiologyprimer/project/blob/master/copyright_information.md). If you would like to learn more about our team, please click on the link [here](https://github.com/covid19radiologyprimer/project/blob/master/team.md).
+To checkout our full open-source project on Github, please click on the link [here](https://github.com/covid19radiologyprimer/project). For access to copyright information, please click on the link [here](https://github.com/covid19radiologyprimer/project/blob/master/copyright_information.md). If you would like to find out some more about our team, please click on the link [here](https://github.com/covid19radiologyprimer/project/blob/master/team.md).
 
 
 
